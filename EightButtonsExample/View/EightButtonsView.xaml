@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="EightButtonsExample.View.EightButtonsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:EightButtonsExample.View"
+             mc:Ignorable="d" >
+    <StackPanel Orientation="Vertical">
+        <Button Content="Button 1" Command="{Binding ButtonOne}"/>
+        <Button Content="Button 2"  Command="{Binding ButtonTwo}"/>
+        <Button Content="Button 3"  Command="{Binding ButtonThree}"/>
+        <Button Content="Button 4"  Command="{Binding ButtonFour}"/>
+    </StackPanel>
+</UserControl>
